@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Unity hub editor\\degital game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|D:\\Unity hub editor\\degital game\\assets\\scenes\\btn-3 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-3 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|D:\\Unity hub editor\\degital game\\assets\\scenes\\btn-2 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-2 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|D:\\Unity hub editor\\degital game\\assets\\scenes\\mainwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\mainwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|d:\\unity hub editor\\degital game\\assets\\scenes\\btn-6 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-6 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|d:\\unity hub editor\\degital game\\assets\\scenes\\btn-5-5 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-5-5 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|d:\\unity hub editor\\degital game\\assets\\scenes\\btn-5-4 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-5-4 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|d:\\unity hub editor\\degital game\\assets\\scenes\\btn-5-3 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-5-3 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|d:\\unity hub editor\\degital game\\assets\\scenes\\btn-5-2 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-5-2 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|d:\\unity hub editor\\degital game\\assets\\scenes\\btn-5-1 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-5-1 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|d:\\unity hub editor\\degital game\\assets\\scenes\\btn-4 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\scenes\\btn-4 tiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Unity hub editor\\degital game\\Assets\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\mainwindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|D:\\Unity hub editor\\degital game\\assets\\resourses\\\u5B57\u4F53\u5185\u5BB9\\first window.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{7199469E-5B90-377A-5799-539DBFDA751E}|Assembly-CSharp.csproj|solutionrelative:assets\\resourses\\\u5B57\u4F53\u5185\u5BB9\\first window.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "btn-2 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-2 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-2 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-2 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-2 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:07:50.624Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "btn-6 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-6 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-6 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-6 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-6 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:20:25.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "btn-5-5 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-5 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-5-5 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-5 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-5-5 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:20:23.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "btn-5-4 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-4 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-5-4 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-4 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-5-4 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:20:22.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "btn-5-3 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-3 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-5-3 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-3 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-5-3 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:20:20.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "btn-5-2 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-2 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-5-2 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-2 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-5-2 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:20:17.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "btn-5-1 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-1 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-5-1 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-5-1 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-5-1 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:20:15.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "btn-4 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-4 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-4 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-4 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-4 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:18:26.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "btn-3 tiao.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-3 tiao.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\btn-3 tiao.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\btn-3 tiao.cs",
+              "RelativeToolTip": "Assets\\Scenes\\btn-3 tiao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T14:09:10.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWind.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\MainWind.cs",
+              "RelativeDocumentMoniker": "Assets\\Scenes\\MainWind.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Scenes\\MainWind.cs",
+              "RelativeToolTip": "Assets\\Scenes\\MainWind.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:50:21.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "mainwindow.cs",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\mainwindow.cs",
+              "RelativeDocumentMoniker": "Assets\\mainwindow.cs",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\mainwindow.cs",
+              "RelativeToolTip": "Assets\\mainwindow.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T13:40:33.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "first window.txt",
+              "DocumentMoniker": "D:\\Unity hub editor\\degital game\\Assets\\Resourses\\\u5B57\u4F53\u5185\u5BB9\\first window.txt",
+              "RelativeDocumentMoniker": "Assets\\Resourses\\\u5B57\u4F53\u5185\u5BB9\\first window.txt",
+              "ToolTip": "D:\\Unity hub editor\\degital game\\Assets\\Resourses\\\u5B57\u4F53\u5185\u5BB9\\first window.txt",
+              "RelativeToolTip": "Assets\\Resourses\\\u5B57\u4F53\u5185\u5BB9\\first window.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-07-20T02:37:15.658Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
