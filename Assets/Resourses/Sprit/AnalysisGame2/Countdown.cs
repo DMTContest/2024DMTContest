@@ -2,11 +2,13 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using System;
+using UnityEngine.SceneManagement;
 
 public class Countdown : MonoBehaviour
 {
     public TextMeshProUGUI textBox;
     public float timeStart = 60f;
+    
 
     void Start()
     {
@@ -25,6 +27,7 @@ public class Countdown : MonoBehaviour
         textBox.text = "0";
         UpdateUI(); // 确保最终时间为0时也更新UI
         Debug.Log("倒计时结束！");
+        SceneManager.LoadScene("TimeOver");
     }
 
     void UpdateUI()
@@ -46,4 +49,5 @@ public class Countdown : MonoBehaviour
         }
         UpdateUI(); // 每次减少时间时更新UI
     }
+
 }
