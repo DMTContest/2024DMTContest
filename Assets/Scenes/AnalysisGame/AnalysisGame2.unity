@@ -524,6 +524,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4088334253398307294, guid: 09b7a31401b58ff499ae61802635a4b4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 4088334254465592161, guid: 09b7a31401b58ff499ae61802635a4b4, type: 3}
       propertyPath: m_Name
       value: Clock
