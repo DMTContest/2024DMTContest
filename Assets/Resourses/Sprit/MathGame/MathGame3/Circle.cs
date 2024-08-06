@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using System.Collections.Generic; // 添加这一行来引入 List<> 类型
 
 public class Circle : MonoBehaviour
 {
