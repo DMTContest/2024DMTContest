@@ -6,8 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class GoInGame1 : MonoBehaviour
 {
-    public void SwitchToScene(string sceneName)
+    public void SwitchToScene()
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene("AnalysisGame");
     }
 }

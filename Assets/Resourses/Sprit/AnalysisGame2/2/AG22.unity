@@ -586,5 +586,6 @@ PrefabInstance:
       propertyPath: textBox
       value: 
       objectReference: {fileID: 3793798457738581924}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 959014067525397206, guid: 0dae54f9a04adf844aa4cdea4dc36214, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0dae54f9a04adf844aa4cdea4dc36214, type: 3}

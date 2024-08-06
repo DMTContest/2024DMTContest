@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -383,5 +384,45 @@ public class SceneTransition : MonoBehaviour
     public static float Time
     {
         get { return instance != null ? instance._time : 0f; }
+    }
+     public static bool is1right
+    {
+        get { return instance != null ? instance.GetBollFromScene1Bool(): false; }
+    }
+         public static bool is2right
+    {
+        get { return instance != null ? instance.GetBollFromScene22Bool(): false; }
+    }
+         public static bool is3right
+    {
+        get { return instance != null ? instance.GetBollFromScene23Bool(): false; }
+    }
+         public static bool is4right
+    {
+        get { return instance != null ? instance.GetBollFromScene24Bool(): false; }
+    }
+         public static bool is5right
+    {
+        get { return instance != null ? instance.GetBollFromScene25Bool(): false; }
+    }
+        public static bool is6right
+    {
+        get { return instance != null ? instance.GetBollFromScene26Bool(): false; }
+    }
+        public static bool is7right
+    {
+        get { return instance != null ? instance.GetBollFromScene27Bool(): false; }
+    }
+        public static bool is8right
+    {
+        get { return instance != null ? instance.GetBollFromScene28Bool(): false; }
+    }
+        public static bool is9right
+    {
+        get { return instance != null ? instance.GetBollFromScene29Bool(): false; }
+    }
+        public static bool is10right
+    {
+        get { return instance != null ? instance.GetBollFromScene210Bool(): false; }
     }
 }
