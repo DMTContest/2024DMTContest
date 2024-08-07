@@ -5,9 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class Btn51 : MonoBehaviour
 {
-    //°´Å¥ÏìÓ¦º¯Êý
+    //ï¿½ï¿½Å¥ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½
     public void OnBtnNewClick()
     {
-        SceneManager.LoadScene(5);
+        SceneManager.LoadScene("Practice");
     }
 }
