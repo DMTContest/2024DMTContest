@@ -7,7 +7,7 @@ public class Btn2 : MonoBehaviour
 {
     public void OnBtnNewClick()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene("NameWind");
     }
 }
 

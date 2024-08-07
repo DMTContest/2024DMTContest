@@ -5,9 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainWind : MonoBehaviour
 {
-  //°´Å¥ÏìÓ¦º¯Êý
+  //ï¿½ï¿½Å¥ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½
+  [SerializeField]string TatgetScene;
     public void OnBtnNewClick()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(TatgetScene);
     }
 }
