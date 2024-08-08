@@ -18,29 +18,29 @@ public class QuizManager : MonoBehaviour
 
     public void OnClickA()
     {
-        countdown.ReduceTime(10f); // 选锟斤拷A时锟斤拷锟斤拷10锟诫倒锟斤拷时
-        Debug.Log("选锟斤拷锟斤拷选锟斤拷 A锟斤拷锟斤拷前锟斤拷锟斤拷时锟斤拷" + countdown.timeStart);
+        countdown.ReduceTime(10f); // 选择A时减少10秒倒计时
+        Debug.Log("选择了选项 A，当前倒计时：" + countdown.timeStart);
     }
 
     public void OnClickB()
     {
-        countdown.ReduceTime(10f); // 选锟斤拷B时锟斤拷锟斤拷10锟诫倒锟斤拷时
-        Debug.Log("选锟斤拷锟斤拷选锟斤拷 B锟斤拷锟斤拷前锟斤拷锟斤拷时锟斤拷" + countdown.timeStart);
+        countdown.ReduceTime(10f); // 选择B时减少10秒倒计时
+        Debug.Log("选择了选项 B，当前倒计时：" + countdown.timeStart);
     }
 
     public void OnClickC()
     {
-        // 选锟斤拷C时锟叫伙拷锟斤拷锟斤拷一锟斤拷页锟斤拷
+        // 选择C时切换到下一个页面
         SwitchToNextPage();
     }
 
-    public void SwitchToNextPage()
+    void SwitchToNextPage()
     {
-        Debug.Log("锟叫伙拷锟斤拷锟斤拷一锟斤拷页锟斤拷");
-        // 锟斤拷锟斤拷锟斤拷实锟斤拷锟叫伙拷页锟斤拷木锟斤拷锟斤拷呒锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟铰筹拷锟斤拷锟斤拷锟斤拷锟斤拷示锟斤拷一锟斤拷UI锟斤拷锟斤拷
-        // 锟斤拷锟界，锟斤拷锟斤拷使锟斤拷 Unity 锟侥筹拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟斤拷锟铰筹拷锟斤拷锟斤拷
+        Debug.Log("切换到下一个页面");
+        // 在这里实现切换页面的具体逻辑，例如加载新场景或者显示另一个UI界面
+        // 例如，可以使用 Unity 的场景管理器加载新场景：
         SceneManager.LoadScene("select2");
-        // 锟斤拷锟斤拷锟斤拷示锟斤拷一锟斤拷UI锟斤拷锟芥：
+        // 或者显示另一个UI界面：
         // nextUIPane.SetActive(true);
     }
 }
