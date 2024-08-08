@@ -105,7 +105,8 @@ public class TimeManager : MonoBehaviour
         }
         if (SceneManager.GetActiveScene().name == "FinalClass1")
         {
-           ScoreForAnalyzeWind = (TimeManager.Jcorrect*30 - (TimeManager.JWR1+TimeManager.JWR2+TimeManager.JWR3)*5+ TimeManager.Mcorrect*50 - (TimeManager.MWR1+TimeManager.MWR2+TimeManager.MWR3)*10+ TimeManager.Hcorrect*80 - (TimeManager.HWR1+TimeManager.HWR2+TimeManager.HWR3+TimeManager.HWR4)*20).ToString();
+           ScoreForAnalyzeWind = 
+        (TimeManager.Jcorrect*10 - (TimeManager.JWR1+TimeManager.JWR2+TimeManager.JWR3)*2+ TimeManager.Mcorrect*10 - (TimeManager.MWR1+TimeManager.MWR2+TimeManager.MWR3)*4+ TimeManager.Hcorrect*10 - (TimeManager.HWR1+TimeManager.HWR2+TimeManager.HWR3+TimeManager.HWR4)*6).ToString();
 
         }
     }
