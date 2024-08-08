@@ -654,7 +654,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb35f6103d3386e4698c0d7b6a47ebb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TatgetScene: MathGame1
+  TatgetScene: MathGame2
 --- !u!4 &509178880
 Transform:
   m_ObjectHideFlags: 0
@@ -1225,7 +1225,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb35f6103d3386e4698c0d7b6a47ebb2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TatgetScene: MathGame2
+  TatgetScene: MathGame1
 --- !u!4 &1548310607
 Transform:
   m_ObjectHideFlags: 0
