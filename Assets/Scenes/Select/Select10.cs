@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class Select10 : MonoBehaviour
 {
-    public Countdown countdown;
+    public SectionCountdownManager countdownManager; 
     public Button buttonA;
     public Button buttonB;
     public Button buttonC;
@@ -25,14 +25,14 @@ public class Select10 : MonoBehaviour
 
     public void OnClickB()
     {
-        countdown.ReduceTime(10f); // 选择A时减少10秒倒计时
-        Debug.Log("选择了选项 B，当前倒计时：" + countdown.timeStart);
+       countdownManager .ReduceTime(10f); // 选择A时减少10秒倒计时
+        Debug.Log("选择了选项 B，当前倒计时：" + countdownManager .timeStart);
     }
 
     public void OnClickC()
     {
-        countdown.ReduceTime(10f); // 选择B时减少10秒倒计时
-        Debug.Log("选择了选项 C，当前倒计时：" + countdown.timeStart);
+        countdownManager.ReduceTime(10f); // 选择B时减少10秒倒计时
+        Debug.Log("选择了选项 C，当前倒计时：" + countdownManager.timeStart);
     }
 
     void SwitchToNextPage()
