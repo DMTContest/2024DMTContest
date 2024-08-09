@@ -95,10 +95,11 @@ public class Scene29 : MonoBehaviour
         {
             MoveNum -= 1;
             Minute.transform.RotateAround(Vector3.zero, Vector3.forward, rotationSpeed);
+            Hour.transform.RotateAround(Vector3.zero, Vector3.forward, rotationSpeed/12);
             MinuteNum -= 1;
             if (MinuteNum < 0)
             {
-                Hour.transform.RotateAround(Vector3.zero, Vector3.forward, rotationSpeed);
+                Hour.transform.RotateAround(Vector3.zero, Vector3.forward, rotationSpeed/12);
                 MinuteNum = 11;
             }
         }
@@ -106,10 +107,11 @@ public class Scene29 : MonoBehaviour
         {
             MoveNum += 1;
             Minute.transform.RotateAround(Vector3.zero, Vector3.forward, -rotationSpeed);
+            Hour.transform.RotateAround(Vector3.zero, Vector3.forward, -rotationSpeed/12);
             MinuteNum += 1;
             if (MinuteNum == 12)
             {
-                Hour.transform.RotateAround(Vector3.zero, Vector3.forward, -rotationSpeed);
+                Hour.transform.RotateAround(Vector3.zero, Vector3.forward, -rotationSpeed/12);
                 MinuteNum = 0;
             }
         }
