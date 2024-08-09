@@ -314,7 +314,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.02305901}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -325,7 +325,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.93, y: 7.46}
+  m_Size: {x: 7.93, y: 1.8796401}
   m_EdgeRadius: 0
 --- !u!212 &110635915
 SpriteRenderer:
@@ -403,9 +403,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 110635913}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86530186705d4748950aae52442d82a, type: 3}
+  m_Script: {fileID: 11500000, guid: 88b44b2f0ad339145b9aa6e436b3d207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quizManager2C: {fileID: 1116959167}
 --- !u!1 &169957078
 GameObject:
   m_ObjectHideFlags: 0
@@ -849,6 +850,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &276102869
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276102871}
+  - component: {fileID: 276102870}
+  m_Layer: 0
+  m_Name: Code
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &276102870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276102869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b84f05bc115dc544c82e8100978aa21d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _time: 0
+--- !u!4 &276102871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276102869}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.6376462, y: 2.0129583, z: -9.961113}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &306784686
 GameObject:
   m_ObjectHideFlags: 0
@@ -957,7 +1003,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.00000014901161}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -968,7 +1014,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.93, y: 7.46}
+  m_Size: {x: 7.93, y: 1.8399904}
   m_EdgeRadius: 0
 --- !u!212 &397904763
 SpriteRenderer:
@@ -1046,9 +1092,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 397904761}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86530186705d4748950aae52442d82a, type: 3}
+  m_Script: {fileID: 11500000, guid: 88b44b2f0ad339145b9aa6e436b3d207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quizManager2C: {fileID: 1116959167}
 --- !u!1 &593285491
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,7 +1288,7 @@ GameObject:
   - component: {fileID: 817668438}
   m_Layer: 0
   m_Name: Square
-  m_TagString: 0
+  m_TagString: 1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1337,7 +1384,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.93, y: 7.46}
+  m_Size: {x: 7.93, y: 1.7412853}
   m_EdgeRadius: 0
 --- !u!114 &817668438
 MonoBehaviour:
@@ -1348,9 +1395,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 817668434}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86530186705d4748950aae52442d82a, type: 3}
+  m_Script: {fileID: 11500000, guid: 88b44b2f0ad339145b9aa6e436b3d207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quizManager2C: {fileID: 1116959167}
 --- !u!1 &856220768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1622,9 +1670,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1116959163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8aa69eb6b5906e54a9ec2f1438ce9658, type: 3}
+  m_Script: {fileID: 11500000, guid: 9890153d5663905419e6edee50b0c78c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  countdown2c: {fileID: 1116959168}
 --- !u!114 &1116959168
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1634,9 +1683,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1116959163}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cd997277687aae94294ae28d6529ed73, type: 3}
+  m_Script: {fileID: 11500000, guid: b352873994a778b4f906cba40aa41a98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textBox: {fileID: 1540516855}
+  timeStart: 60
 --- !u!1 &1381785481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1942,7 +1993,7 @@ GameObject:
   - component: {fileID: 1608484708}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: 1
+  m_TagString: 0
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1960,7 +2011,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.034268618}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -1971,7 +2022,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7.93, y: 7.46}
+  m_Size: {x: 7.93, y: 1.771451}
   m_EdgeRadius: 0
 --- !u!212 &1608484706
 SpriteRenderer:
@@ -2049,9 +2100,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1608484704}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b86530186705d4748950aae52442d82a, type: 3}
+  m_Script: {fileID: 11500000, guid: 88b44b2f0ad339145b9aa6e436b3d207, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  quizManager2C: {fileID: 1116959167}
 --- !u!1 &1741711621
 GameObject:
   m_ObjectHideFlags: 0

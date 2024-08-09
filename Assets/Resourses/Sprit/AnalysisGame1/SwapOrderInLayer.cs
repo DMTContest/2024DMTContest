@@ -1,6 +1,7 @@
 using System.Globalization;
 using System.Threading;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SwapOrderInLayer : MonoBehaviour
@@ -9,6 +10,9 @@ public class SwapOrderInLayer : MonoBehaviour
     public SpriteRenderer Option2;
     public SpriteRenderer ChooseO1;
     public SpriteRenderer ChooseO2;
+
+    [SerializeField]public AnalysisGame2TIme analysisGame2TIme;
+
     //public SpriteRenderer[] spriteRenderers;
     public int optionNum = 0;
     private void Start() {
@@ -30,15 +34,15 @@ optionNum += 1;
 if(optionNum>1){optionNum=1;
 if(optionNum==0){
         Option1.sortingOrder = -3;
-        ChooseO1.sortingOrder=1;
-        Option2.sortingOrder = 1;
+        ChooseO1.sortingOrder=2;
+        Option2.sortingOrder = 2;
         ChooseO2.sortingOrder=-3;
     }
 
         if(optionNum==1){
         Option2.sortingOrder = -3;
-        ChooseO2.sortingOrder=1;
-        Option1.sortingOrder = 1;
+        ChooseO2.sortingOrder=2;
+        Option1.sortingOrder = 2;
         ChooseO1.sortingOrder=-3;
     }}
         
@@ -52,15 +56,15 @@ if(optionNum==0){
             optionNum=0;
             if(optionNum==0){
         Option1.sortingOrder = -3;
-        ChooseO1.sortingOrder=1;
-        Option2.sortingOrder = 1;
+        ChooseO1.sortingOrder=2;
+        Option2.sortingOrder = 2;
         ChooseO2.sortingOrder=-3;
     }
 
             if(optionNum==1){
         Option2.sortingOrder = -3;
-        ChooseO2.sortingOrder=1;
-        Option1.sortingOrder = 1;
+        ChooseO2.sortingOrder=2;
+        Option1.sortingOrder = 2;
         ChooseO1.sortingOrder=-3;
     }
         }
@@ -68,16 +72,27 @@ if(optionNum==0){
         
     }
     if (Input.GetKeyDown(KeyCode.Return))
+{
+    Debug.Log("Enter key was pressed!");
+    if (optionNum == 0)
     {
-        Debug.Log("Enter key was pressed!");
-        // 在这里可以添加你的代码逻辑
-        if(optionNum==0){
         Debug.Log("选择了第一个，答对了！");
+        SceneManager.LoadScene("AG12");
     }
-        if(optionNum==1){
-        Debug.Log("选择了第二个，打错了！");
+    if (optionNum == 1)
+    {
+        Debug.Log("选择了第二个，答错了！");
+        if (analysisGame2TIme != null)
+        {
+            analysisGame2TIme.ReduceTime(10f);
+        }
+        else
+        {
+            Debug.LogError("analysisGame2TIme is null!");
+        }
     }
-    }
+}
+    
         
 }
 

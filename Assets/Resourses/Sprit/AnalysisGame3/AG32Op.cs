@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Clicked : MonoBehaviour
+public class AG32Op : MonoBehaviour
 {
-    public QuizManager2c quizManager2C;
     // Start is called before the first frame update
+    public AG32TIme aG32TIme;
     void Start()
     {
         
@@ -16,7 +16,7 @@ public class Clicked : MonoBehaviour
     {
         
     }
-     private void OnMouseDown()
+    private void OnMouseDown()
     {
         // 获取当前点击的游戏物件
         GameObject clickedObject = gameObject;
@@ -25,11 +25,11 @@ public class Clicked : MonoBehaviour
         // 检查游戏物件的 tag 是否为 "1"
         if (clickedObject.tag == "1")
         {
-            quizManager2C.isCorrect();
+            aG32TIme.isCorrect();
         }
         else if(clickedObject.tag == "0")
         {
-            quizManager2C.isWrong();
+            aG32TIme.isWrong();
         }
     }
 }

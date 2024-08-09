@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class QuizManager2c : MonoBehaviour
@@ -28,7 +29,7 @@ public class QuizManager2c : MonoBehaviour
     {
         Debug.Log("切换到下一个页面");
         // 在这里实现切换页面的具体逻辑
-        // 例如, SceneManager.LoadScene("NextScene");
+        SceneManager.LoadScene("AG32");
     }
 
     
