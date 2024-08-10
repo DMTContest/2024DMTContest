@@ -4,10 +4,11 @@ using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
 {
-    public Countdown countdown;
+    public Countdown countdown; // 倒计时管理器的引用
     public Button buttonA;
     public Button buttonB;
     public Button buttonC;
+    public float timeStart;
 
     void Start()
     {
@@ -43,4 +44,5 @@ public class QuizManager : MonoBehaviour
         // 或者显示另一个UI界面：
         // nextUIPane.SetActive(true);
     }
+
 }
