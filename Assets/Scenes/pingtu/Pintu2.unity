@@ -1934,8 +1934,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1883536450}
   - component: {fileID: 1883536448}
-  - component: {fileID: 1883536449}
   - component: {fileID: 1883536447}
+  - component: {fileID: 1883536452}
+  - component: {fileID: 1883536453}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1968,7 +1969,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a3f942350428c84988ea8749931fc11, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countdown: {fileID: 1883536449}
+  countdown: {fileID: 1883536452}
   choiceButtons:
   - {fileID: 915930364}
   - {fileID: 1292858599}
@@ -1977,20 +1978,6 @@ MonoBehaviour:
   silhouetteImage1: {fileID: 1724143552}
   silhouetteImage2: {fileID: 1467323103}
   silhouetteImage3: {fileID: 754464537}
---- !u!114 &1883536449
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1883536446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3faee21aa0664264d8e8b4351e809a77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  textBox: {fileID: 1915366458}
-  timeStart: 60
 --- !u!4 &1883536450
 Transform:
   m_ObjectHideFlags: 0
@@ -2006,6 +1993,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1883536452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883536446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faee21aa0664264d8e8b4351e809a77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textBox: {fileID: 1915366458}
+  timeStart: 60
+--- !u!114 &1883536453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1883536446}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdb2281336aa25b4d826844fa12f3a86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeStart: 0
+  scene2iswrong: 0
+  textBox: {fileID: 1915366458}
 --- !u!1 &1915366457
 GameObject:
   m_ObjectHideFlags: 0
@@ -2044,7 +2060,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: 60
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2587,6 +2603,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 743630761}
-  - {fileID: 1883536450}
   - {fileID: 1805501673}
   - {fileID: 202001751}
+  - {fileID: 1883536450}
