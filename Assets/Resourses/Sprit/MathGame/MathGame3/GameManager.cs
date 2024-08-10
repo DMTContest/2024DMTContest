@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +29,9 @@ public class GameManager : MonoBehaviour
         }else if (clickedOrder.SequenceEqual(targetOrder))
             {
                 Debug.Log("全对的");
+                if(SceneManager.GetActiveScene().name == "MathGame3"){
+                    SceneManager.LoadScene("MG32");
+        }
             }
         else
         {

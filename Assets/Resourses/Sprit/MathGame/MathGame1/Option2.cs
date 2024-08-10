@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Option : MonoBehaviour
+public class Option2 : MonoBehaviour
 {
     
     Vector3 worldPos;
@@ -52,42 +52,42 @@ public class Option : MonoBehaviour
         
     }
 
-    private bool isChoose = false;
-    private Option AOption; // 00选项的脚本引用
-    private Option BOption; // 01选项的脚本引用
-    private Option COption; // 10选项的脚本引用
-    private Option DOption; // 11选项的脚本引用
+    private bool isChoose2 = false;
+    private Option2 AOption; // 00选项的脚本引用
+    private Option2 BOption; // 01选项的脚本引用
+    private Option2 COption; // 10选项的脚本引用
+    private Option2 DOption; // 11选项的脚本引用
  [SerializeField] Color choose;
     [SerializeField] Color unchoose;
 private void CheakAnswer(){
     //Debug.Log("正在调用答案检查器");
-    Option CorrectOption1 = AOption;
-    Option CorrectOption2 = DOption;
+    Option2 CorrectOption1 = BOption;
+    Option2 CorrectOption2 = COption;
 
-    Option WrongOption1 = COption;
-    Option WrongOption2 = BOption;
+    Option2 WrongOption1 = AOption;
+    Option2 WrongOption2 = DOption;
     
     
-    if(CorrectOption1.isChoose==true && 
-    CorrectOption2.isChoose==true &&
-    WrongOption1.isChoose==false &&
-    WrongOption2.isChoose==false ){
+    if(CorrectOption1.isChoose2==true && 
+    CorrectOption2.isChoose2==true &&
+    WrongOption1.isChoose2==false &&
+    WrongOption2.isChoose2==false ){
     Debug.Log("答对啦!");
-    SceneManager.LoadScene("MG2");
+    //SceneManager.LoadScene("MG2");
     }
     
 }
 private void ChangeColor()
 {
-    isChoose = !isChoose;
+    isChoose2 = !isChoose2;
     //Debug.Log("此时"+ gameObject.name + "的isChoose状态为" + GameObject.Find(gameObject.name).GetComponent<Option>().isChoose);
 }
 public void SetColor(Color choose,Color unchoose,Renderer renderer){
-        if(isChoose==true){
+        if(isChoose2==true){
             renderer.material.color = choose;
             //Debug.Log("颜色为已选择");
         }
-        else if(isChoose==false){renderer.material.color = unchoose;
+        else if(isChoose2==false){renderer.material.color = unchoose;
         //Debug.Log("颜色为未选择");
         }}
         
@@ -96,16 +96,16 @@ private void Start()
 {
     //获得选项的脚本引用
     GameObject OA = GameObject.Find("OA");
-    AOption = OA.GetComponent<Option>();
+    AOption = OA.GetComponent<Option2>();
 
     GameObject OB = GameObject.Find("OB");
-    BOption = OB.GetComponent<Option>();
+    BOption = OB.GetComponent<Option2>();
 
     GameObject OC = GameObject.Find("OC");
-    COption = OC.GetComponent<Option>();
+    COption = OC.GetComponent<Option2>();
 
     GameObject OD = GameObject.Find("OD");
-    DOption = OD.GetComponent<Option>();
+    DOption = OD.GetComponent<Option2>();
 
     //Debug.Log("已经引用四个选项脚本");
 
