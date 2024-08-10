@@ -1,7 +1,8 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class imageswap : MonoBehaviour
+public class ImageSwap : MonoBehaviour
 {
     public Countdown countdown;
     public Button[] choiceButtons; // 选择按钮数组
@@ -10,6 +11,9 @@ public class imageswap : MonoBehaviour
 
     private int correctButtonIndex1 = 0; // 第一个正确按钮的索引
     private int correctButtonIndex2 = 2; // 第二个正确按钮的索引
+
+    private bool buttonClicked1 = false; // 记录第一个按钮是否被点击
+    private bool buttonClicked2 = false; // 记录第二个按钮是否被点击
 
     void Start()
     {
@@ -26,17 +30,28 @@ public class imageswap : MonoBehaviour
         // 判断点击的按钮是否是正确的按钮
         if (buttonIndex == correctButtonIndex1)
         {
-            // 执行正确按钮1的逻辑，例如更新剪影图片颜色
             silhouetteImage1.color = Color.green; // 假设正确时剪影变绿色
+            buttonClicked1 = true;
         }
         else if (buttonIndex == correctButtonIndex2)
         {
-            // 执行正确按钮2的逻辑，例如更新剪影图片颜色
             silhouetteImage2.color = Color.green; // 假设正确时剪影变绿色
+            buttonClicked2 = true;
         }
         else
         {
             countdown.ReduceTime(10f);
+        }
+
+        CheckAllButtonsClicked();
+    }
+
+    void CheckAllButtonsClicked()
+    {
+        if (buttonClicked1 && buttonClicked2)
+        {
+            // 所有目标按钮都被点击了，进行页面跳转
+            SceneManager.LoadScene("JianYing2"); // 替换成你的目标场景名称
         }
     }
 }
