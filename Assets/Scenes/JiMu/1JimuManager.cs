@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class JimuManager3 : MonoBehaviour
+public class JimuManager1 : MonoBehaviour
 {
     public Countdown countdown;
     public Button button1;
@@ -48,13 +48,13 @@ public class JimuManager3 : MonoBehaviour
 
     public void OnClick3()
     {
-        // 选择3时切换到下一个页面
-        SwitchToNextPage();
+        countdown.ReduceTime(10f); // 选择B时减少10秒倒计时
+        Debug.Log("选择了4，当前倒计时：" + countdown.timeStart);
     }
     public void OnClick4()
     {
-        countdown.ReduceTime(10f); // 选择B时减少10秒倒计时
-        Debug.Log("选择了4，当前倒计时：" + countdown.timeStart);
+         // 选择4时切换到下一个页面
+        SwitchToNextPage();
     }
     public void OnClick5()
     {
@@ -101,7 +101,7 @@ public class JimuManager3 : MonoBehaviour
         Debug.Log("切换到下一个页面");
         // 在这里实现切换页面的具体逻辑，例如加载新场景或者显示另一个UI界面
         // 例如，可以使用 Unity 的场景管理器加载新场景：
-        SceneManager.LoadScene("JimuManager2");
+        SceneManager.LoadScene("JiMu2");
         // 或者显示另一个UI界面：
         // nextUIPanel.SetActive(true);
     }

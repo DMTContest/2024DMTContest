@@ -516,7 +516,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -601, y: 396}
+  m_AnchoredPosition: {x: -588, y: 367.94}
   m_SizeDelta: {x: 309.2844, y: 122.2169}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &396911032
@@ -677,7 +677,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455206165}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -898,7 +898,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 936391967}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1668263149}
+        m_TargetAssemblyTypeName: MainWind, Assembly-CSharp
+        m_MethodName: OnBtnNewClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &936391967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1609,6 +1621,8 @@ GameObject:
   - component: {fileID: 1668263147}
   - component: {fileID: 1668263146}
   - component: {fileID: 1668263148}
+  - component: {fileID: 1668263149}
+  - component: {fileID: 1668263150}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1638,7 +1652,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1668263144}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 960.0012, y: 540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1659,6 +1673,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countdown: {fileID: 1668263146}
   answerButtonLabel: {fileID: 1957328886}
+--- !u!114 &1668263149
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668263144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb35f6103d3386e4698c0d7b6a47ebb2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TatgetScene: GeometryWind
+--- !u!114 &1668263150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1668263144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aedbef7125ed3a4459dc3059d02611da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeStart: 0
+  scene2iswrong: 0
+  textBox: {fileID: 396911032}
 --- !u!1 &1716758520
 GameObject:
   m_ObjectHideFlags: 0
